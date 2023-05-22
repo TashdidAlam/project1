@@ -1,3 +1,0 @@
-Hello trigger
-hello trigger 2
-hello trigger 3
