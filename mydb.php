@@ -4,7 +4,7 @@
 $i=0;
 if($_SERVER['REQUEST_METHOD']=="GET")
 {
-      $localhost = "192.168.20.126";
+      $localhost = "192.168.20.108";
       $usernamew = "ecomuser";
       $passwordw = "ecompassword";
       $db = "expdb";
