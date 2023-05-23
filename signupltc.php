@@ -53,9 +53,9 @@ else
     
 if($_SERVER['REQUEST_METHOD']=="POST")//con establish
 {
-$localhost = "localhost";
-$username = "root";
-$password = "";
+$localhost = "192.168.20.108";
+$usernamew = "ecomuser";
+$passwordw = "ecompassword";
 $db = "expdb";
 $conn = mysqli_connect($localhost,$username,$password,$db);
 if(!$conn){
