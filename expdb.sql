@@ -6,6 +6,10 @@
 -- Generation Time: May 23, 2020 at 07:55 PM
 -- Server version: 10.1.35-MariaDB
 -- PHP Version: 7.1.21
+GRANT ALL PRIVILEGES ON *.* TO 'ecomuser'@'192.168.56.126' IDENTIFIED BY
+'ecompassword' WITH GRANT OPTION;
+FLUSH PRIVILEGES;
+USE expdb;
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
