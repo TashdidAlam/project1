@@ -540,9 +540,9 @@ In the modern world, with the amount of problems and their complexity increasing
 
      
      if($_SERVER['REQUEST_METHOD']=="GET"){
-       $localhost = "localhost";
-       $usernamew = "root";
-       $passwordw = "";
+       $localhost = "192.168.20.108";
+       $usernamew = "ecomuser";
+       $passwordw = "ecompassword";
           $db = "expdb";
       $conn = mysqli_connect($localhost,$usernamew,$passwordw,$db);
       if(!$conn){
