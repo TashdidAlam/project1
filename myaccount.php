@@ -308,9 +308,9 @@
     
 if($_SERVER['REQUEST_METHOD']=="GET")//con establish
 {
-$localhost = "localhost";
-$usernamew = "root";
-$passwordw = "";
+$localhost = "192.168.20.108";
+$usernamew = "ecomuser";
+$passwordw = "ecompassword";
 $db = "expdb";
 $conn = mysqli_connect($localhost,$usernamew,$passwordw,$db);
 if(!$conn){
@@ -381,9 +381,9 @@ $result=mysqli_query($conn,"select * from reviewtable where username='$fname'")
     
 if($_SERVER['REQUEST_METHOD']=="GET")//con establish
 {
-$localhost = "localhost";
-$usernamew = "root";
-$passwordw = "";
+$localhost = "192.168.20.108";
+$usernamew = "ecomuser";
+$passwordw = "ecompassword";
 $db = "expdb";
 $conn = mysqli_connect($localhost,$usernamew,$passwordw,$db);
 if(!$conn){
@@ -440,9 +440,9 @@ $result=mysqli_query($conn,"select * from contacttable where fullname='$fname'")
     
 if($_SERVER['REQUEST_METHOD']=="GET")//con establish
 {
-$localhost = "localhost";
-$usernamew = "root";
-$passwordw = "";
+$localhost = "192.168.20.108";
+$usernamew = "ecomuser";
+$passwordw = "ecompassword";
 $db = "expdb";
 $conn = mysqli_connect($localhost,$usernamew,$passwordw,$db);
 if(!$conn){
@@ -575,9 +575,9 @@ color:white;
 
 $i=0;
 if($_SERVER['REQUEST_METHOD']=="GET"){
-$localhost = "localhost";
-$usernamew = "root";
-$passwordw = "";
+$localhost = "192.168.20.108";
+$usernamew = "ecomuser";
+$passwordw = "ecompassword";
 $db = "expdb";
 $conn = mysqli_connect($localhost,$usernamew,$passwordw,$db);
 if(!$conn){
