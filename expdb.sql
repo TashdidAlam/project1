@@ -6,7 +6,7 @@
 -- Generation Time: May 23, 2020 at 07:55 PM
 -- Server version: 10.1.35-MariaDB
 -- PHP Version: 7.1.21
-GRANT ALL PRIVILEGES ON *.* TO 'ecomuser'@'192.168.56.108' IDENTIFIED BY
+GRANT ALL PRIVILEGES ON *.* TO 'ecomuser'@'192.168.20.108' IDENTIFIED BY
 'ecompassword' WITH GRANT OPTION;
 FLUSH PRIVILEGES;
 USE expdb;
